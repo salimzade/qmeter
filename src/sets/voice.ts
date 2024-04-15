@@ -1,0 +1,1 @@
+export const VoiceFeedback = { id: 2, name: 'Voice Feedback', icon: 'mic', type: "voiceFeedBack" }

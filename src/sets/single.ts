@@ -1,0 +1,1 @@
+export const SingleChoice = { id: 3, name: 'Single Choice', icon: 'disc', type: "singleChoice" }
