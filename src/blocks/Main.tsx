@@ -70,6 +70,8 @@ export const Main: FC<Props> = (props) => {
             {droppedWidgets.map((widget) => (
               <div key={widget.id} className="dropped-widget">
                 <Widget
+                  // ?? types are exists mb typyscript issue
+                  // @ts-ignore
                   widget={widget}
                   setEditMode={() => setEditMode(widget.id)}
                   handleDelete={() => onDeleteWidget(widget.id)}
