@@ -76,15 +76,14 @@ export const Main: FC<Props> = (props) => {
                   setEditMode={() => setEditMode(widget.id)}
                   handleDelete={() => onDeleteWidget(widget.id)}
                 />
-                <button
-                  className="my-5 border border-neutral-200 bg-blue-600 p-1 rounded-sm text-sm text-white font-medium capitalize px-5"
-                  onClick={exportDataToJson}
-                >
-                  submit
-                </button>
               </div>
             ))}
-
+            <button
+              className="my-5 border border-neutral-200 bg-blue-600 p-1 rounded-sm text-sm text-white font-medium capitalize px-5"
+              onClick={exportDataToJson}
+            >
+              submit
+            </button>
           </div>
 
           <div className="w-full h-[42px] flex flex-row justify-center items-center bg-neutral-50 border border-b-neutral-200">
